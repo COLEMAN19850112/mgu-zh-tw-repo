@@ -1,0 +1,358 @@
+{
+  "schema": 1,
+  "components": [
+    {
+      "id": "gforce",
+      "kind": "app",
+      "path": "apps/gforce",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "G-Force G值儀表（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    },
+    {
+      "id": "car_vitals",
+      "kind": "app",
+      "path": "apps/car_vitals",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "M Vitals 車況儀表（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    },
+    {
+      "id": "live_data",
+      "kind": "app",
+      "path": "apps/live_data",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "Live Data 即時車輛資料（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    },
+    {
+      "id": "edrive",
+      "kind": "app",
+      "path": "apps/edrive",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "eDrive 電能助手（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    },
+    {
+      "id": "service",
+      "kind": "app",
+      "path": "apps/service",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "Service 保養資訊（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    },
+    {
+      "id": "dyno",
+      "kind": "app",
+      "path": "apps/dyno",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "Virtual Dyno 虛擬馬力機（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    },
+    {
+      "id": "draggy",
+      "kind": "app",
+      "path": "apps/draggy",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "Drag Timer 直線加速計時（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    },
+    {
+      "id": "brake_test",
+      "kind": "app",
+      "path": "apps/brake_test",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "Brake Test 煞車效能測試（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    },
+    {
+      "id": "redline",
+      "kind": "app",
+      "path": "apps/redline",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "Redline 換檔轉速儀表（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    },
+    {
+      "id": "dtc_scanner",
+      "kind": "app",
+      "path": "apps/dtc_scanner",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "Fault Scanner 故障碼掃描（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    },
+    {
+      "id": "warmup",
+      "kind": "app",
+      "path": "apps/warmup",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "Warm-Up 暖車助手（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    }
+  ],
+  "tools": []
+}
