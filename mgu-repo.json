@@ -352,6 +352,70 @@
       },
       "title": "Warm-Up 暖車助手（繁體中文）",
       "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    },
+    {
+      "id": "zf8hp",
+      "kind": "app",
+      "path": "apps/zf8hp",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "Transmission Config 變速箱設定（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
+    },
+    {
+      "id": "live_adjustments",
+      "kind": "app",
+      "path": "apps/live_adjustments",
+      "manifest": "app.json",
+      "icon": "icon.png",
+      "build": {
+        "python": "kit/tools/store_zh_tw.py",
+        "args": [
+          "{id}",
+          "--language",
+          "zh-TW"
+        ],
+        "sdk": "oap-sdk",
+        "output": "dist/{id}@{version}.tgz",
+        "network": [],
+        "shared": [
+          "kit/runtime",
+          "kit/platform",
+          "kit/localization",
+          "kit/tools/build.py",
+          "kit/tools/pack_data.py",
+          "kit/tools/localize.py",
+          "kit/tools/locale-revisions.json",
+          "kit/tools/oapgen",
+          "oap-sdk",
+          "kit/tools/store_zh_tw.py"
+        ]
+      },
+      "title": "Engine Config 引擎設定（繁體中文）",
+      "description": "繁體中文（台灣用語）版，車機端本地建置。繁中製作者：CW；保留原作者與簡中譯者署名。"
     }
   ],
   "tools": []
